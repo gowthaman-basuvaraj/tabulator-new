@@ -1,4 +1,9 @@
 const TabulatorTable = () => {
+  /* As per later discussion
+    Note: Filter should be global not needed on every column instead of this we will have one global filter which will 
+    --> take column Name and value
+    --> FilterMode--> "TEXT"
+  */
   [
     {
       column: "amiId",
