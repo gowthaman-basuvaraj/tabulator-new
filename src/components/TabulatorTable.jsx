@@ -28,7 +28,7 @@ const TabulatorTable = () => {
       sortable: false,
       filterable: false,
       filterMode: "none",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "backups",
@@ -49,7 +49,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "instanceId",
@@ -58,7 +58,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "instanceUsage",
@@ -100,7 +100,7 @@ const TabulatorTable = () => {
       sortable: "false",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "privateIPV4Address",
@@ -121,7 +121,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "tags",
@@ -144,7 +144,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "totalSnapshots",
@@ -164,7 +164,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "false",
       filterMode: "none",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "latestSnapshot",
@@ -183,7 +183,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "zone",
@@ -192,7 +192,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "name",
@@ -201,7 +201,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       // "column": name,
@@ -210,7 +210,7 @@ const TabulatorTable = () => {
       sortable: "false",
       filterable: "false",
       filterMode: "None",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "state",
@@ -219,7 +219,7 @@ const TabulatorTable = () => {
       sortable: "false",
       filterable: "false",
       filterMode: "None",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
 
     // EBS volumes
@@ -230,7 +230,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "deviceName",
@@ -239,7 +239,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "size",
@@ -248,7 +248,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     { column: "snapshotId" },
     { column: "name" },
@@ -276,7 +276,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     { column: "deleted", display: "false" },
     { column: "hasSecondaryBackups", display: "false" },
@@ -288,7 +288,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
 
     //Load Balancer
@@ -299,7 +299,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "type",
@@ -308,7 +308,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
 
     {
@@ -342,7 +342,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "metadata",
@@ -360,7 +360,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "metadata.dnsName",
@@ -368,7 +368,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "metadata.vpcId",
@@ -377,7 +377,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "targetGroupViewModelList",
@@ -386,7 +386,7 @@ const TabulatorTable = () => {
       sortable: "false",
       filterable: "false",
       filterMode: "none",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
 
     // S3 Buckets
@@ -397,7 +397,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "host",
@@ -414,7 +414,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true", // may not require filter
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "deleted",
@@ -429,7 +429,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "runtime",
@@ -438,7 +438,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "false",
       filterMode: "none",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "deleted",
@@ -451,7 +451,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "metadata",
@@ -463,7 +463,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
 
     // DynamoDB
@@ -478,7 +478,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "tableStatus",
@@ -491,7 +491,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "itemCount",
@@ -500,7 +500,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "creationDateTime",
@@ -509,7 +509,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     // EKS--> Elastic Kubernetes Service
     {
@@ -523,7 +523,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "state",
@@ -540,7 +540,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "false",
       filterMode: "none",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "nodegroup",
@@ -549,7 +549,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "backupTypes",
@@ -564,7 +564,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "name",
@@ -581,7 +581,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "false",
       filterMode: "none",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "encryptionKey",
@@ -590,7 +590,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
 
     // ECR --> Elastic Container Registry
@@ -605,7 +605,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "registryId",
@@ -618,7 +618,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "false",
       filterMode: "none",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "arn",
@@ -627,7 +627,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "encryptionKey", // it will be kmsKeyId later
@@ -636,7 +636,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
 
     //RDS Instances
@@ -647,7 +647,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "instanceProperties",
@@ -660,7 +660,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "CONTAINS",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "instanceProperties[multiAZ]",
@@ -669,7 +669,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "instanceProperties[dbInstanceStatus]",
@@ -678,7 +678,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "instanceProperties[licenseModel]",
@@ -687,7 +687,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "instanceProperties[kmsKeyId]",
@@ -696,7 +696,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "tagProperties",
@@ -717,7 +717,7 @@ const TabulatorTable = () => {
       sortable: "true",
       filterable: "false",
       filterMode: "none",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "powerStatus",
@@ -726,7 +726,7 @@ const TabulatorTable = () => {
       sortable: "false",
       filterable: "true",
       filterMode: "SELECT",
-      sortOrder: null,
+      sortOrder: {"asc": "true","desc": "true"},
     },
     {
       column: "hasSecondaryBackups",
@@ -745,7 +745,7 @@ const TabulatorTable = () => {
     sortable: 'true',
     filterable: 'true',
     filterMode: 'CONTAINS',
-    sortOrder: null
+    sortOrder: {"asc": "true","desc": "true"}
   },
   {
     column: 'storageCapacity',  //attribute name is size in other services
@@ -754,7 +754,7 @@ const TabulatorTable = () => {
     sortable: 'true',
     filterable: 'false',
     filterMode: 'CONTAINS',
-    sortOrder: null
+    sortOrder: {"asc": "true","desc": "true"}
   },
   
   {
@@ -776,7 +776,7 @@ const TabulatorTable = () => {
     sortable: 'true',
     filterable: 'true',
     filterMode: 'SELECT',
-    sortOrder: null
+    sortOrder: {"asc": "true","desc": "true"}
   },
   {
     column: 'backupTypes',
